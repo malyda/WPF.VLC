@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28516.95
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.VLC", "WPF.VLC\WPF.VLC.csproj", "{B260BA62-D30D-4581-A01B-A9DD5F93059F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VLCShared", "VLCShared\VLCShared.csproj", "{A0FCDE45-BA8B-48F5-AA5E-48ECF717FC5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B260BA62-D30D-4581-A01B-A9DD5F93059F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B260BA62-D30D-4581-A01B-A9DD5F93059F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B260BA62-D30D-4581-A01B-A9DD5F93059F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B260BA62-D30D-4581-A01B-A9DD5F93059F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0FCDE45-BA8B-48F5-AA5E-48ECF717FC5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0FCDE45-BA8B-48F5-AA5E-48ECF717FC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0FCDE45-BA8B-48F5-AA5E-48ECF717FC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0FCDE45-BA8B-48F5-AA5E-48ECF717FC5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0227F82C-1CDE-4026-B2E0-61A063997271}
+	EndGlobalSection
+EndGlobal
