@@ -7,6 +7,25 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Vlc:VlcControl xmlns:Vlc="clr-namespace:Vlc.DotNet.Wpf;assembly=Vlc.DotNet.Wpf" x:Name="vlcPlayer" />
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Vlc:VlcControl xmlns:Vlc="clr-namespace:Vlc.DotNet.Wpf;assembly=Vlc.DotNet.Wpf" 
+                        x:Name="vlcPlayer"
+                        Grid.ColumnSpan="2"/>
+        <Button x:Name="PlayStopButton"
+                Click="PlayStopButton_Click"
+                Content="Pause"
+                Grid.Row="1"/>
+        <Button x:Name="Next5Secs"
+                Click="Next5Secs_Click"
+                Content="Next 5 secs"
+                Grid.Row="1"
+                Grid.Column="1"/>
     </Grid>
 </Window>

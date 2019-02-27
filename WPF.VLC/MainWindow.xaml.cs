@@ -36,5 +36,24 @@ namespace WPF.VLC
             vlcPlayer.MediaPlayer.Play(new Uri("http://download.blender.org/peach/" +
                 "bigbuckbunny_movies/big_buck_bunny_480p_surround-fix.avi"));
         }
+
+        private void PlayStopButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (vlcPlayer.MediaPlayer.IsPlaying)
+            {
+                vlcPlayer.MediaPlayer.Pause();
+                PlayStopButton.Content = "Play";
+            }
+            else
+            {
+                vlcPlayer.MediaPlayer.Play();
+                PlayStopButton.Content = "Pause";
+            }
+        }
+
+        private void Next5Secs_Click(object sender, RoutedEventArgs e)
+        {
+            vlcPlayer.MediaPlayer.Time += 5000;
+        }
     }
 }
